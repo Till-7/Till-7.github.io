@@ -266,26 +266,28 @@ footer a:hover {
 }
 
 .to-top {
-    position: fixed;
+    position: fixed;             
     bottom: 20px;
     right: 20px;
-    z-index: 99;
+    z-index: 999;
+    margin: 0;                   
 }
 
 .to-top a {
-    display: block;
-    background-color: #8b5a2b; 
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 20px; 
-    font-size: 12px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8b5a2b;  
+    color: #ffffff !important;   
+    font-size: 13px;
     font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-decoration: none;
+    border-radius: 25px;        
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     transition: all 0.3s ease;
 }
+
 .to-top a:hover {
-    background-color: #a06d3b;
+    background-color: #6d441f;  
     transform: translateY(-3px); 
 }
 
